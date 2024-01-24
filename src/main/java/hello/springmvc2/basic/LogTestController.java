@@ -24,8 +24,8 @@ public class LogTestController {
         //로그 상태 레벨
         //모든 로그를 보고싶다면?
         log.trace("trace log={}", name);
-        log.debug("debug log={}", name); //디버그, 개발서버 로그
-        log.info("info log={}", name); //비즈니스 정보
+        log.debug("debug log={}", name); // 개발 디버깅 정도
+        log.info("info log={}", name); // 운영 서버 정도
         log.warn("warn log={}", name);
         log.error("error log={}", name);
 
