@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.io.IOException;
 import java.util.Map;
 
-
+//JDK 수정
 @Slf4j
 @Controller
 public class RequestParamController {
