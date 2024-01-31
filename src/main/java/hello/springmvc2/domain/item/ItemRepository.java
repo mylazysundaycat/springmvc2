@@ -14,6 +14,7 @@ public class ItemRepository {
     private static long sequence = 0L;
     //멀티 쓰레드 환경에서 Automic long 사용할 것
 
+
     public Item save(Item item){
         item.setId(++sequence);
         store.put(item.getId(), item);
